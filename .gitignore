@@ -12,6 +12,8 @@ DerivedData/
 # Swift Package Manager
 .build/
 .swiftpm/xcode/
+*.env
+*.env.local
 
 # CocoaPods
 Pods/
@@ -29,11 +31,6 @@ fastlane/test_output
 Dependencies/
 .accio/
 
-# SwiftLint
-.swiftlint.yml
-
-# SwiftFormat
-.swiftformat
 
 # Ignore plist files
 *.plist
