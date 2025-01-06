@@ -25,10 +25,11 @@
 		EA848BFA2C754D2700A9F662 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EA848BF92C754D2700A9F662 /* FirebaseAuth */; };
 		EA848BFC2C754D2700A9F662 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EA848BFB2C754D2700A9F662 /* FirebaseFirestore */; };
 		EA848BFE2C754D2700A9F662 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA848BFD2C754D2700A9F662 /* FirebaseFirestoreSwift */; };
-		EA848C002C754D7700A9F662 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA848BFF2C754D7700A9F662 /* GoogleService-Info.plist */; };
-		EAA1298A2C6F60AA003BB574 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA129892C6F60AA003BB574 /* TodoListApp.swift */; };
+		EA9F46E72D2BC0F200908A1C /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F46E52D2BC0F200908A1C /* TodoListApp.swift */; };
+		EA9F46E82D2BC0F200908A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9F46E32D2BC0F200908A1C /* Assets.xcassets */; };
+		EA9F46ED2D2C50E100908A1C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F46EC2D2C50E100908A1C /* HeaderView.swift */; };
+		EA9F46EF2D2C56BA00908A1C /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F46EE2D2C56BA00908A1C /* TLButton.swift */; };
 		EAA1298C2C6F60AA003BB574 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1298B2C6F60AA003BB574 /* MainView.swift */; };
-		EAA1298E2C6F60AC003BB574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1298D2C6F60AC003BB574 /* Assets.xcassets */; };
 		EAA129912C6F60AC003BB574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA129902C6F60AC003BB574 /* Preview Assets.xcassets */; };
 		EAA1299B2C6F60AD003BB574 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1299A2C6F60AD003BB574 /* TodoListTests.swift */; };
 		EAA129A52C6F60AD003BB574 /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA129A42C6F60AD003BB574 /* TodoListUITests.swift */; };
@@ -68,18 +69,19 @@
 		EA37603D2C8AC218001EA710 /* TodoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewViewModel.swift; sourceTree = "<group>"; };
 		EA37603F2C8AC22F001EA710 /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EA3760412C8AC23E001EA710 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
-		EA848BFF2C754D7700A9F662 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA9F46E32D2BC0F200908A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9F46E42D2BC0F200908A1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA9F46E52D2BC0F200908A1C /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
+		EA9F46EC2D2C50E100908A1C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EA9F46EE2D2C56BA00908A1C /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		EAA129862C6F60AA003BB574 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAA129892C6F60AA003BB574 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		EAA1298B2C6F60AA003BB574 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		EAA1298D2C6F60AC003BB574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA129902C6F60AC003BB574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAA129962C6F60AD003BB574 /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA1299A2C6F60AD003BB574 /* TodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTests.swift; sourceTree = "<group>"; };
 		EAA129A02C6F60AD003BB574 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA129A42C6F60AD003BB574 /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		EAA129A62C6F60AD003BB574 /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EAE5DA832C88DB4E00E1B1D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA9F46E62D2BC0F200908A1C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EA9F46E32D2BC0F200908A1C /* Assets.xcassets */,
+				EA9F46E42D2BC0F200908A1C /* GoogleService-Info.plist */,
+				EA9F46E52D2BC0F200908A1C /* TodoListApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		EAA1297D2C6F60A9003BB574 = {
 			isa = PBXGroup;
 			children = (
@@ -133,11 +145,10 @@
 		EAA129882C6F60AA003BB574 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				EAE5DA812C88DADD00E1B1D7 /* Other */,
+				EA9F46E62D2BC0F200908A1C /* Other */,
 				EAE5DA802C88DAD200E1B1D7 /* ViewModels */,
 				EAE5DA7F2C88DAC800E1B1D7 /* Models */,
 				EAE5DA7E2C88DABD00E1B1D7 /* Views */,
-				EA848BFF2C754D7700A9F662 /* GoogleService-Info.plist */,
 				EAA1298F2C6F60AC003BB574 /* Preview Content */,
 			);
 			path = TodoList;
@@ -176,8 +187,10 @@
 				EA3760272C8AC067001EA710 /* TodoListView.swift */,
 				EA3760292C8AC07C001EA710 /* TodoListItemView.swift */,
 				EA37602B2C8AC089001EA710 /* RegisterView.swift */,
+				EA9F46EE2D2C56BA00908A1C /* TLButton.swift */,
 				EA37602D2C8AC097001EA710 /* LoginView.swift */,
 				EA37602F2C8AC0AA001EA710 /* NewItemView.swift */,
+				EA9F46EC2D2C50E100908A1C /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,16 +216,6 @@
 				EA3760412C8AC23E001EA710 /* NewItemViewViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		EAE5DA812C88DADD00E1B1D7 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				EAA129892C6F60AA003BB574 /* TodoListApp.swift */,
-				EAA1298D2C6F60AC003BB574 /* Assets.xcassets */,
-				EAE5DA832C88DB4E00E1B1D7 /* GoogleService-Info.plist */,
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +287,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					EAA129852C6F60A9003BB574 = {
 						CreatedOnToolsVersion = 15.4;
@@ -327,9 +330,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9F46E82D2BC0F200908A1C /* Assets.xcassets in Resources */,
 				EAA129912C6F60AC003BB574 /* Preview Assets.xcassets in Resources */,
-				EAA1298E2C6F60AC003BB574 /* Assets.xcassets in Resources */,
-				EA848C002C754D7700A9F662 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,22 +357,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3760342C8AC113001EA710 /* TodoListItem.swift in Sources */,
+				EA9F46ED2D2C50E100908A1C /* HeaderView.swift in Sources */,
 				EA3760302C8AC0AA001EA710 /* NewItemView.swift in Sources */,
 				EA3760402C8AC22F001EA710 /* TodoListItemViewViewModel.swift in Sources */,
 				EA3760362C8AC1C8001EA710 /* MainViewViewModel.swift in Sources */,
 				EAA1298C2C6F60AA003BB574 /* MainView.swift in Sources */,
 				EA37602E2C8AC097001EA710 /* LoginView.swift in Sources */,
+				EA9F46EF2D2C56BA00908A1C /* TLButton.swift in Sources */,
 				EA3760382C8AC1D9001EA710 /* ProfileViewViewModel.swift in Sources */,
 				EA37603E2C8AC218001EA710 /* TodoListViewViewModel.swift in Sources */,
 				EA37603C2C8AC1FF001EA710 /* RegisterViewViewModel.swift in Sources */,
 				EA37603A2C8AC1E8001EA710 /* LoginViewViewModel.swift in Sources */,
 				EA3760422C8AC23E001EA710 /* NewItemViewViewModel.swift in Sources */,
 				EA37602A2C8AC07C001EA710 /* TodoListItemView.swift in Sources */,
+				EA9F46E72D2BC0F200908A1C /* TodoListApp.swift in Sources */,
 				EA3760262C8AC020001EA710 /* ProfileView.swift in Sources */,
 				EA3760322C8AC0FD001EA710 /* User.swift in Sources */,
 				EA37602C2C8AC089001EA710 /* RegisterView.swift in Sources */,
 				EA3760282C8AC067001EA710 /* TodoListView.swift in Sources */,
-				EAA1298A2C6F60AA003BB574 /* TodoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +587,6 @@
 		EAA129AE2C6F60AD003BB574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -602,7 +605,6 @@
 		EAA129AF2C6F60AD003BB574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -621,7 +623,6 @@
 		EAA129B12C6F60AD003BB574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -638,7 +639,6 @@
 		EAA129B22C6F60AD003BB574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
