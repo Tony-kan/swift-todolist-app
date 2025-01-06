@@ -1,0 +1,39 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/xcshareddata/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Accio dependency manager
+Dependencies/
+.accio/
+
+# SwiftLint
+.swiftlint.yml
+
+# SwiftFormat
+.swiftformat
+
+# Ignore plist files
+*.plist
