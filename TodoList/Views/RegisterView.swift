@@ -34,6 +34,7 @@ struct RegisterView: View {
                     title: "Create Account",
                     background: .green){
                         // Attempt to register
+                       
                     }
                     .padding()
             }

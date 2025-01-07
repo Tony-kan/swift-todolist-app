@@ -13,7 +13,7 @@ struct TLButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button{
+        Button {
             action()
         } label: {
             ZStack{

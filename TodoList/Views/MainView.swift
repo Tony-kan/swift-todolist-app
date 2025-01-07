@@ -10,8 +10,8 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
 
-//        LoginView()
-        RegisterView()
+        LoginView()
+//        RegisterView()
     }
 }
 

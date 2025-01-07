@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA076A502D2D364000BB3BAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA076A4F2D2D364000BB3BAE /* GoogleService-Info.plist */; };
+		EA076A522D2D366700BB3BAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA076A512D2D366700BB3BAE /* GoogleService-Info.plist */; };
 		EA3760262C8AC020001EA710 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3760252C8AC020001EA710 /* ProfileView.swift */; };
 		EA3760282C8AC067001EA710 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3760272C8AC067001EA710 /* TodoListView.swift */; };
 		EA37602A2C8AC07C001EA710 /* TodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3760292C8AC07C001EA710 /* TodoListItemView.swift */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA076A4F2D2D364000BB3BAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA076A512D2D366700BB3BAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA3760252C8AC020001EA710 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		EA3760272C8AC067001EA710 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		EA3760292C8AC07C001EA710 /* TodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemView.swift; sourceTree = "<group>"; };
@@ -70,7 +74,6 @@
 		EA37603F2C8AC22F001EA710 /* TodoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		EA3760412C8AC23E001EA710 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		EA9F46E32D2BC0F200908A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA9F46E42D2BC0F200908A1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA9F46E52D2BC0F200908A1C /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		EA9F46EC2D2C50E100908A1C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EA9F46EE2D2C56BA00908A1C /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
@@ -115,9 +118,10 @@
 		EA9F46E62D2BC0F200908A1C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EA076A512D2D366700BB3BAE /* GoogleService-Info.plist */,
 				EA9F46E32D2BC0F200908A1C /* Assets.xcassets */,
-				EA9F46E42D2BC0F200908A1C /* GoogleService-Info.plist */,
 				EA9F46E52D2BC0F200908A1C /* TodoListApp.swift */,
+				EA076A4F2D2D364000BB3BAE /* GoogleService-Info.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -331,7 +335,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9F46E82D2BC0F200908A1C /* Assets.xcassets in Resources */,
+				EA076A522D2D366700BB3BAE /* GoogleService-Info.plist in Resources */,
 				EAA129912C6F60AC003BB574 /* Preview Assets.xcassets in Resources */,
+				EA076A502D2D364000BB3BAE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
